@@ -10,15 +10,17 @@ def print_menu1():
     print('1 -- Tree' )
     print('2 -- Matrix' )
     print('3 -- Fibonacci' )
+    print('4 -- Factorial' )
     runOptions()
 
 
 # Menu options as a dictionary
 menu_options = {
+    0: 'Exit',
     1: 'Tree',
     2: 'Matrix',
     3: 'Listy',
-    4: 'Exit',
+    4: 'Factorial'
 }
 
 # Print menu options from dictionary key/value pair
@@ -41,6 +43,8 @@ def runOptions():
                 print_matrix3(matrix)
             elif option == 3:
                 fibonacci()
+            elif option == 4:
+                factorial()
             # Exit menu    
             elif option == 0:  
                 print('Exiting! Thank you! Good Bye...')
