@@ -3,6 +3,15 @@ Introduction to Console Programming
 Writing a function to print a menu
 """
 
+import sys
+sys.path.insert(1, 'week 1')
+sys.path.insert(1, 'week 2')
+sys.path.insert(1, 'week 3')
+
+from matrix import matrix
+from tree import tree
+from fibonacci import fibonacci
+from factoria import factoria
 
 # Menu options in print statement
 def print_menu1():
