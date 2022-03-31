@@ -6,7 +6,7 @@ def gen_tree(rows):
         for j in range(0, rows-i):
             print(end=' ')
         for k in range(0, i):
-            print('*', end=' ')
+            print(u'\u001b[32m*\u001b[0m', end=' ')
         print()
 
 
