@@ -1,3 +1,3 @@
 {% include navigation.html %}
 
-# Anika Sharma's github page
+# Anika Sharma's GitHub Page
