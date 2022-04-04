@@ -5,7 +5,7 @@ def print_matrix3(matrix):
         print(*row)
 
 
-def driver():
+def matrix_driver():
     # setup some text matrices
     keypad = [[1, 2, 3],
               [4, 5, 6],
@@ -27,8 +27,8 @@ def driver():
     # print each matrix using defined functions
     for title, matrix in matrices:  # unpack matrix with title
         print(title, len(matrix), "x", "~" + str(len(matrix[0])))  # formatted message with concatenation
-        print_matrix1(matrix)
-        print_matrix2(matrix)
+        #print_matrix1(matrix)
+       # print_matrix2(matrix)
         print_matrix3(matrix)
         print()
 

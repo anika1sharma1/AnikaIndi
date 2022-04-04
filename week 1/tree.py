@@ -10,7 +10,7 @@ def gen_tree(rows):
         print()
 
 
-def driver():
+def tree_driver():
     rows = int(input("Enter height of the tree:  "))
     gen_tree(rows)
     # single line lambda function
